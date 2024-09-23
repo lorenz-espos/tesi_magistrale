@@ -1,5 +1,3 @@
-```
-
 To generate working payloads, you should have a complete comprehension of how things work. `transports`, `launchers`, `listeners` and `payloads` terms have to be understood before starting.  
 
 ## Transport
@@ -18,7 +16,6 @@ Three major components are required to use Pupy:
 **Oneliners**: For one shot usage use `gen` command inside `pupysh`. Once you get the session back, kill the server using `CTRL-C`. If you want to let the server running non stop, use `pupygen.py` using exactly the same syntax as explained below.  
 
 Payloads generation are done using the `gen` command.
-```
 
 ## Payloads format
 
