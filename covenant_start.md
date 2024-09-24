@@ -7,7 +7,7 @@ Does your new task require a lot of code and/or is fairly complex?
 
 Covenant provides a rich dataset for creating and configuring Tasks that includes:
 ![Create Task](https://github.com/cobbr/Covenant/wiki/images/covenant-gui-taskcreate.png)
-```
+
 
 ## Registration
 
