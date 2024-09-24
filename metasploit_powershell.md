@@ -27,14 +27,16 @@ To get a list of reverse shells, use the `msfpayload` command. B
 include Msf::Exploit::Powershell
 ```
 
-* Use the ```cmd_psh_payload``` method to generate the PowerShell payload.
+* Use the cmd_psh_payload method to generate the PowerShell payload.
 
 ```ruby
 cmd_psh_payload(payload.encoded, payload_instance.arch.first)
+```
 ```sh
 curl https://raw.githubusercontent.com/rapid7/metasploit-omnibus/master/config/templates/metasploit-framework-wrappers/msfupdate.erb > msfinstall && \
   chmod 755 msfinstall && \
   ./msfinstall
+```
 ### Improving post-exploit API to be more consistent, work smoothly across session types
 
 The Metasploit post-exploitation API is intended to provide a unified interface between different Meterpreter, shell, powershell, mainframe, and other session types. However, there are areas where the implementation is not consistent, and could use improvements:
