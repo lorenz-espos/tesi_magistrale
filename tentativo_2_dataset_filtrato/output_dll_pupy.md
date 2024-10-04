@@ -49,6 +49,7 @@ shell=interactive_shell
 
 - Python file - Bind
 ```
+```
  Question: Generate an example of using gen command related to creating  Windows DLLs with Pupy. Each command should follow the format similar to: \n >> gen -f <format> <launcher> -t <transport>. 
 ```
  Your response: 
