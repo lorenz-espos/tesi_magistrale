@@ -29,13 +29,8 @@ md5
 des,bsdi,crypt
 ```
 
-## Crackers
-### Differences Between Hashcat vs JtR
-### General Settings
-### Hash Setting
-### Cracker Modes
-### Hashcat Optimized Kernel
-### Exporting Passwords and Hashes
+
+
 # Example Hashes
 For testing Hashcat/JtR integration, this is a common list of commands to import example hashes of many different types.  When possible the username is separated by an underscore, and anything after it is the password.  For example `des_password`, the password for the hash is `password`:
 ```

@@ -1,9 +1,4 @@
 # Empire
-### Features
-### Agents
-### Modules
-## Sponsors
-## Release Notes
 ###  Quickstart
 When cloning this repository, you will need to recurse submodules.
 ```sh

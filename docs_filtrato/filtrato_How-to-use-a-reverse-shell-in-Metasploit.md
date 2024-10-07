@@ -1,5 +1,4 @@
-## On this page
-## List of Metasploit reverse shells
+# List of Metasploit reverse shells
 To get a list of reverse shells, use the `msfpayload` command. B
 ```bash
 ./msfpayload -l |grep reverse
@@ -7,10 +6,7 @@ To get a list of reverse shells, use the `msfpayload` command. B
 
 ### Windows common reverse shell
 ### Linux common reverse shell
-## When to use a reverse shell
-## When a reverse shell isn't needed
 ## How to set up for a reverse shell during payload generation
-## Demonstration
 ### Step 1: Generate the executable payload
 On the attacker's box, run `msfpayload` or `msfvenom`:
 ```bash

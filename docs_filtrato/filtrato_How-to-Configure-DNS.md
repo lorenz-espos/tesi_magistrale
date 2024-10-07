@@ -1,5 +1,4 @@
 # Metasploit DNS
-## Background
 ## The DNS command
 The current configuration can be printed by running `dns print`:
 ```msf6
@@ -33,10 +32,6 @@ Static hostnames
 ```
 
 ## DNS Resolver Rules
-### The Black Hole Resolver
-### The Upstream Resolver
-### The System Resolver
-### The Static Resolver
 ### Example Rules
 other query type.
 ```

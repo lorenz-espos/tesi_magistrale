@@ -1,41 +1,7 @@
-For a Linux server, you can also use the one liner installation `curl https://sliver.sh/install|sudo bash`
-```asciinema
-{"src": "/asciinema/install-1.cast", "cols": "132"}
-```
-
-If you install Sliver via the one liner, you can check that the server service is running using `systemctl status sliver`. Note that the Sliver service is not configured to start automatically on boot by default (i.e., if you reboot the server you'll need to start the service again using `systemctl start sliver`):
-```asciinema
-{"src": "/asciinema/service-status-1.cast", "cols": "132", "rows": "14", "idleTimeLimit": 8}
-```
-
-#### System Requirements
-### MinGW Setup (Optional, Recommended)
-#### Linux (Debian-based)
-
-```
-apt install git mingw-w64
-```
-
-#### MacOS
-
-```
-brew install git mingw-w64
-```
-
-### Metasploit Setup (Optional)
-## Implants: Beacon vs. Session
 ## Generating Implants
-#### Session Mode
-
-```asciinema
-{"src": "/asciinema/sliver-generate-1.cast", "cols": "132"}
-```
 
 #### Beacon Mode
 
-```asciinema
-{"src": "/asciinema/sliver-generate-2.cast", "cols": "132"}
-```
 
 Some commands/features may not work on "unsupported" platforms.
 ```
