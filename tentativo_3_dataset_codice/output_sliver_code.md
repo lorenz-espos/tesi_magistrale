@@ -61,7 +61,7 @@ go mod init github.com/<your-username>/<your-project-name>
 go get github.com/bishopfox/sliver
 
  Question: Provide a complete example of using the generate command in Sliver to create a payload. The example should include common parameters and the expected output. Respond with just a few command line. 
-
+```
  Your response: 
 ```
 sliver > generate --http example.com --os mac
