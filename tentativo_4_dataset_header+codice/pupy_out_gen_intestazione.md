@@ -18,7 +18,7 @@ linux_pers         portscan           pupwinutils        pupyutils          scap
 Pupy is a cross-platform, multi function RAT and post-exploitation tool mainly written in python. It features an all-in-memory execution guideline and leaves a very low footprint. Pupy can communicate using multiple transports, migrate into processes using reflective injection, and load remote python code, python packages and python C-extensions from memory.
 
  Question: Generate a list of Bash commands specifically related to payload generation with Pupy. Each command should follow the format similar to: \n >> gen -f <format> <launcher> -t <transport>. 
-
+```
  Your response: 
 ```
 >> gen -f linux_stealth -t process_kill persistence
