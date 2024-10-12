@@ -24,7 +24,7 @@ So a typical workflow looks like:
 The `cursed console` command can be used to start an interactive REPL with any cursed process. You will need to start a cursed process using `cursed chrome`, `cursed edge`, or `cursed electron` before using `cursed console`. You can list cursed processes using the `cursed` command. ![cursed](/images/cursed-1.png)
 
  Question: Provide only the commands to extract cookies using the cursed chrome and cursed cookies commands in Sliver. Exclude all explanations, output, and additional text.  
-
+```
  Your response: 
 ```
 [server] sliver (CHRONIC_GOAT) > cursed chrome
