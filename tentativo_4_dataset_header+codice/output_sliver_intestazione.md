@@ -18,7 +18,7 @@ To see what payloads are available from Framework, you can do:
 ./msfvenom -l payloads
 
  Question: Provide a complete example of using the generate command in Sliver to create a payload. The example should include common parameters and the expected output. Respond with just a few command line. 
-
+```
  Your response: 
 ```
 sliver > generate --http example.com --os mac
