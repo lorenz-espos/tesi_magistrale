@@ -15,5 +15,5 @@ def remove_empty_markdown_files(directory):
                     print(f"File vuoto rimosso: {file_path}")
 
 # Esegui la funzione sulla cartella desiderata
-directory_path = './docs_filtrato'
+directory_path = './docs_tools_back'  # Specifica la tua cartella con i file markdown
 remove_empty_markdown_files(directory_path)
