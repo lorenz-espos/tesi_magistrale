@@ -663,7 +663,7 @@ tcp_connect_time_out 8000
 # defaults set to "tor"
 socks5 127.0.0.1 1080
 `
-### Creating a PHP Reverse Shell with msfvenom
+### Generate a PHP Reverse Shell with msfvenom
 This command generates a raw PHP reverse shell payload using msfvenom. By specifying the local host (LHOST) and local port (LPORT) where the attacker is listening, this payload will create a reverse connection back to the attacker's machine. The generated shell will be saved in a file named reverse_shell.php, which can be deployed on a vulnerable web server to establish a shell session with the attacker.
 
 ```bash

