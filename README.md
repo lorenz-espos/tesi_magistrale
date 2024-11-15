@@ -15,7 +15,7 @@ The system works by taking a prompt input from the user and, through the RAG (Re
 ![schema](https://github.com/user-attachments/assets/3d6f9946-b520-42ac-8793-8ff7a1fe4e08)
 
 ## Example of usage 💻 
-This example uses a DLL payload generated with the LLM built into this repository. The attack follows these steps:
+[This example](https://github.com/lorenz-espos/tesi_magistrale/tree/main/attacco_test_AI) uses a DLL payload generated with the LLM built into this repository. The attack follows these steps:
 - Malicious archive: The goal is to launch the DLL without the victim being aware. For this reason we use a `SFX archive` which opens a pdf and launches a `poweshell` script that modifies the windows registry and downloads the DLL from the attacker machine.
 - Compromised website: This component is the most important in the attack because that is the point where the victim downloads the malicious archive with the launcher. This component can also be used for phishing.
 - Second powershell script: This script will be created if the SFX archive extracts itself, and it will be launched at the victim's logon to the operating system.
