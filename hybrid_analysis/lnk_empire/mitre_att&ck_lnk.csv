@@ -1,0 +1,4 @@
+technique_id,technique_description,tactic_description,matched_malicious_indicators_count,matched_suspicious_indicators_count,matched_informative_indicators_count
+T1027,"Obfuscated Files or Information","Defense Evasion",0,0,3
+T1027.009,"Embedded Payloads","Defense Evasion",1,0,0
+T1573,"Encrypted Channel","Command and Control",0,0,1
