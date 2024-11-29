@@ -1,0 +1,11 @@
+technique_id,technique_description,tactic_description,matched_malicious_indicators_count,matched_suspicious_indicators_count,matched_informative_indicators_count
+T1106,"Native API",Execution,0,0,2
+T1055.003,"Thread Execution Hijacking","Privilege Escalation",0,1,0
+T1070.004,"File Deletion","Defense Evasion",1,0,0
+T1027,"Obfuscated Files or Information","Defense Evasion",1,0,3
+T1055.003,"Thread Execution Hijacking","Defense Evasion",0,1,0
+T1497,"Virtualization/Sandbox Evasion","Defense Evasion",0,0,1
+T1480,"Execution Guardrails","Defense Evasion",0,0,1
+T1083,"File and Directory Discovery",Discovery,0,0,2
+T1497,"Virtualization/Sandbox Evasion",Discovery,0,0,1
+T1071,"Application Layer Protocol","Command and Control",0,0,1
